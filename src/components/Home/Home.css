@@ -1,0 +1,48 @@
+.home {
+    text-align: center;
+  }
+  
+  .profile-section {
+    margin-bottom: 50px;
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .profile-text h1, .profile-text h2 {
+    margin: 0;
+  }
+  
+  .experience-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  
+  .experience-item h3 {
+    font-size: 2rem;
+  }
+  
+  .activity-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .activity-grid {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .activity-item {
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .activity-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  

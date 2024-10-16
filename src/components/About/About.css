@@ -1,0 +1,65 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.image-container {
+  margin-bottom: 30px;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.info-container {
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.detail-item h4 {
+  margin-bottom: 5px;
+}
+
+.detail-item p {
+  margin: 0;
+}
+
+/* Video Container */
+.video-container {
+  margin-top: 30px;
+}
+
+.video-element {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+/* Basic Animation for Fade-In Effect */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animation to elements */
+.animated-element {
+  animation: fadeIn 1.5s ease-in-out;
+}

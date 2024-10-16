@@ -1,0 +1,90 @@
+/* Container */
+.contact-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #E9C8CE; /* Light pinkish background */
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #81657C; /* Deep purple text color */
+  font-family: 'Helvetica', sans-serif;
+}
+
+/* Success message */
+.success-message {
+  color: #28a745;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  animation: fadeOut 2.5s ease forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Form Styling */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 1.1rem;
+  border: 1px solid #DC98BD; /* Darker pinkish border */
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease;
+  background-color: #DEABAF; /* Soft pink background */
+}
+
+.form-input:focus {
+  border-color: #B384A7; /* Muted purple on focus */
+  box-shadow: 0 0 5px rgba(179, 132, 167, 0.5); /* Shadow with the purple tone */
+}
+
+/* Button Styling */
+.form-button {
+  padding: 12px 20px;
+  background-color: #B384A7; /* Medium purple button */
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #81657C; /* Dark purple on hover */
+}
+
+/* Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

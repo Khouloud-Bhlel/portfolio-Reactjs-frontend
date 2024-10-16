@@ -1,0 +1,12 @@
+footer {
+  background-color: #81657C;
+  color: white;
+  padding: 20px 0;
+  display: flex; 
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures the footer stays above other content */
+}

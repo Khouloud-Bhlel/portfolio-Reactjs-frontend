@@ -1,0 +1,26 @@
+header {
+    background-color: #DEABAF;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #81657C;
+  }
